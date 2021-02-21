@@ -1,4 +1,6 @@
-# `gows` (Go Websocket)
+# hsson/gows (Go Websocket)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/hsson/gows)](https://pkg.go.dev/github.com/hsson/gows) [![GoReportCard](https://goreportcard.com/badge/github.com/hsson/gows)](https://goreportcard.com/report/github.com/hsson/gows)
+
 Websocket servers in Go (Golang) made simple!
 
 `gows` is a high-level abstraction of a Websocket server that hides away all the boring an complicated details of dealing with a websocket connection. Under the hood, the `gorilla/websocket` package is used. When using `gows`, Ping/Pong is automatically handled and you can read and write messages with ease.
