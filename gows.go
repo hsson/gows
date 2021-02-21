@@ -198,7 +198,7 @@ func (ws *websocket) handleWriting() {
 				ws.conn.SetWriteDeadline(time.Now().Add(ws.options.writeTimeout))
 			}
 			if !ok {
-				// the send channel was closed due to the conneciton being closed,
+				// the send channel was closed due to the connection being closed,
 				// stop waiting for new writes
 				return
 			}
